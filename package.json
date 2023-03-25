@@ -1,0 +1,34 @@
+{
+  "name": "pinia_courses-todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf yarn.lock && rm -rf package-lock.json && rm -rf node_modules",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "axios": "^1.3.2",
+    "daisyui": "^2.45.0",
+    "pinia": "^2.0.28",
+    "supertokens-web-js": "latest",
+    "vue": "^3.2.45",
+    "vue-router": "4",
+    "vue-toastification": "next"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
