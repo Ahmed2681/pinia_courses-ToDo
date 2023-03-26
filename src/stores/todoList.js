@@ -9,7 +9,7 @@ export const useTodoListStore = defineStore("todoList", {
     addTodo(item) {
       this.todoList.push({ item, id: this.id++, completed: false });
     },
-    deletedTodo(itemId) {
+    deleteTodo(itemId) {
       this.todoList = this.todoList.filter((object) => {
         return object.id !== itemId;
       });
