@@ -1,9 +1,7 @@
 <script setup>
-import HomePage from "../components/HomePage.vue";
+import TodoApp from "../components/TodoApp.vue";
 </script>
 
 <template>
-  <body>
-    <home-page />
-  </body>
+  <todo-app />
 </template>
